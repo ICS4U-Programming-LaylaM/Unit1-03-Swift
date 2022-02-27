@@ -45,7 +45,7 @@ while true {
             // Convert from double to string
             let minutesString = String(minutes)
             // Display how long it needs to microwave for
-            print("Mircrowave for " + minutesString + " minutes.")
+            print("Microwave for " + minutesString + " minutes.")
         } else if quantityInt == 3 {
             // New time based on quantity
             let newTime = time * 2
@@ -54,14 +54,14 @@ while true {
             // Convert from double to string
             let minutesString = String(minutes)
             // Display how long it needs to microwave for
-            print("Mircrowave for " + minutesString + " minutes.")
+            print("Microwave for " + minutesString + " minutes.")
         } else {
             // Convert from seconds to minutes
             let minutes = time / 60
             // Convert from double to string
             let minutesString = String(minutes)
             // Display how long it needs to microwave for
-            print("Mircrowave for " + minutesString + " minutes.")
+            print("Microwave for " + minutesString + " minutes.")
         }
     break
     }
